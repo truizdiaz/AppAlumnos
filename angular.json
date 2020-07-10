@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AppAlumnos"
+    }
+  },
+  "defaultProject": "AppAlumnos",
+  "cli": {
+    "analytics": "293e32c9-8038-4949-ae10-fba145972dab"
+  }
 }
