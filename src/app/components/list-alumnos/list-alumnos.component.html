@@ -1,6 +1,6 @@
-<div class="card">
+<div class="card" *ngFor="let alumno of listAlumnos" style="margin-top: 20px;">
     <div class="card-header text-center">
-        Juan : Promocionado
+        {{ alumno.nombre }} : {{ alumno.estado }}
     </div>
     <div class="card-body">
         <div class="row">
