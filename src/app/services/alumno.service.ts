@@ -11,4 +11,8 @@ export class AlumnoService {
     { nombre: 'Maria Funes', estado: 'Promocionado' }
   ];
   constructor() { }
+
+  addAlumno(alumno: Alumno): void {
+    this.listAlumnos.unshift(alumno);
+  }
 }
